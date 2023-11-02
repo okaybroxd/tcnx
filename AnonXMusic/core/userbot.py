@@ -52,7 +52,7 @@ class Userbot(Client):
             await self.one.start()
             try:
                 await self.one.join_chat("Tcnsupport")
-                await self.one.join_chat("FallenAssociation")
+                await self.one.join_chat("Tcnupdate")
             except:
                 pass
             assistants.append(1)
